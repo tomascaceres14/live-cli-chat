@@ -10,7 +10,7 @@ import (
 )
 
 var (
-	host = flag.String("host", "localhost", "port")
+	host = flag.String("h", "localhost", "port")
 	port = flag.Int("p", 3090, "port")
 )
 
